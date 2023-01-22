@@ -1,0 +1,4 @@
+The code for the emu analysis is given as example:
+1. mapping /crex/proj/sllstore2017073/private/Octavio/Emu/STAR_mapping/star.sh - 01_mapping.sh
+2. readCounts /crex/proj/sllstore2017073/private/Octavio/Emu/STAR_mapping/featureCounts.sh - 02_readCounts.sh
+3. See attached DESeq2_A for the differential expression of autosomes between sexes. The matrix used for this is /crex/proj/sllstore2017073/private/Octavio/Emu/DESeq2_analysis/Chr_A_only.LTR_ERV/ChrA_counts.only.LTR_ERV.txt. For Z and W chromosomes the code is the same except that it uses the matrix with Z or W chromosomes. The matrix for each group of chromosomes (A, Z or W) you can get by filtering the featureCounts matrix. Matrix for Z /crex/proj/sllstore2017073/private/Octavio/Emu/DESeq2_analysis/Chr_Z_only.LTR_ERV/ChrZ_counts.only.LTR_ERV.txt, and for W  /crex/proj/sllstore2017073/private/Octavio/Emu/DESeq2_analysis/Chr_W_only.LTR_ERV/ChrW_counts.only.LTR_ERV.txt
